@@ -1,0 +1,156 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  line-height: 1.5;
+  }
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+/* sections */
+
+.coloured-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+/* tITLE SECTION */
+#title{
+  text-align: left;
+}
+.big-heading{
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+/* NAvigation bar */
+
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 20px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 300;
+}
+/* DOwnload-button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+/* titlr image */
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:25%;
+}
+/* FEature-content */
+#features{
+  padding: 6% 0 6% 0;
+  position: relative;
+}
+.feature-para{
+  color: #8f8f8f;
+  font-weight: 500;
+}
+
+.feature-img{
+  color: #ef8172;
+  font-size: 3rem;
+  padding: 0 0;
+
+}
+.feature-img:hover{
+  color:#ff4c68;
+}
+.feature-content{
+  padding: 0 5%;
+}
+.feature-title{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* Testimonials */
+
+#testimonials{
+  background-color: #ef8172;
+}
+.testimonial-image{
+  border-radius: 100%;
+  margin: 20px;
+  width: 11%;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-text{
+  font-size: 3rem;
+  font-weight: 700;
+}
+/* Press */
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-img{
+  width:15%;
+  margin: 2% 2% 4.5%;
+}
+/* Pricing section */
+.price-cards{
+  padding: 3% 2%;
+}
+#pricing{
+  text-align: center;
+  padding: 5%;
+}
+.pricing-text{
+  font-size: 3rem;
+  font-weight: 700;
+}
+/* Making the title section responsive for mobile */
+@media (max-width: 1030px) {
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+}
+/* section above footer */
+#cta{
+  padding: 7% 10%;
+}
+.cta-content{
+  padding: 0 10%;
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+/* footer section */
+#footer{
+  padding: 5%;
+}
+.foter{
+  color: #8f8f8f;
+  font-weight: 500;
+  padding: 1.5%;
+}
+.footer-icons{
+  padding: 5% 1%;
+  color: black;
+}
